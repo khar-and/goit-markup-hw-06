@@ -585,6 +585,7 @@ body {
     border-radius: 4px;
     background-color: #2E2F42;
     color: #ffffff;
+    padding-left: 16px;
 }
 
 .footer-input::placeholder {
@@ -594,7 +595,8 @@ body {
     font-size: 12px;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    padding: 8px 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .footer-btn {
@@ -730,7 +732,7 @@ body {
     width: 100%;
     height: 40px;
     padding-left: 38px;
-
+    background-color: #FCFCFC;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     outline: transparent;
@@ -762,7 +764,7 @@ body {
 .modal-textarea {
     width: 100%;
     height: 120px;
-
+    background-color: #FCFCFC;
     display: block;
     resize: none;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -770,6 +772,7 @@ body {
     outline: transparent;
     transition: border-color var(--dur-plas-ttf);
     padding-left: 16px;
+    padding-top: 8px;
 
 }
 
@@ -821,6 +824,10 @@ body {
 
 .input-check:focus+.check-text span {
     border-color: #404BBF;
+}
+
+.privacy-link {
+    color: var(--link-color);
 }
 
 .modal-send-btn {
